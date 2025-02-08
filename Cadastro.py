@@ -80,12 +80,12 @@ def salvar_cliente():
         arquivo.write(f"Telefone: {telefone}\n")
         arquivo.write(f"CPF: {cpf}\n")
         arquivo.write(f"Estado: {estado}\n")
-        arquivo.write(f"Cidade: {estado}\n")
+        arquivo.write(f"Cidade: {cidade}\n")
         arquivo.write(f"Bairro: {bairro}\n")
         arquivo.write(f"Endereço: {endereco}\n")
         arquivo.write("-" * 40 + "\n")
     
-    print(f"Cliente {id_cliente} salvo: {nome}, {email}, {telefone}, {endereco}")
+    print(f"Cliente {id_cliente} salvo: {nome}, {email}, {telefone}, {endereco}, {cpf}, {estado}, {cidade}, {bairro}, {endereco}")
 
 #Interface
 ctk.set_appearance_mode("dark")
